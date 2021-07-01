@@ -27,6 +27,15 @@ public String getTaskName() {
 public void setTaskName(String taskName) {
 	this.taskName = taskName;
 }
+public Task(long id, String taskName) {
+	this.id = id;
+	this.taskName = taskName;
+}
+public Task(String taskName) {
+	this.taskName = taskName;
+}
+public Task() {
+}
 
 
 
